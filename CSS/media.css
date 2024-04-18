@@ -25,9 +25,14 @@
   .nav-item a#home{
     visibility: visible;
   }
-  .header-content .content {
-    text-align: start;
+
+
+  .header-content .photo img{
+    width: 83%;
+    margin-left: 3rem;
+    padding: 10px;
   }
+
   .nav-item li {
     padding: 8px;
   }
@@ -50,14 +55,14 @@
     gap: 5px;
     flex-wrap: wrap;
   }
-  .walter-white {
-    width: 50%;
+.walter-white {
+    width: 5%;
   }
   .sarah-jhonson {
     width: 45%;
     margin-bottom: 49px;
   }
-  
+
 }
 @media (min-width: 677px) {
   .nav-bar .nav-item a#hov-item{
@@ -68,6 +73,11 @@
   }
   .nav-item li#icon-item2{
     visibility: hidden;
+  }
+  .header-content .photo img{
+    width: 100%;
+    margin-left: 3rem;
+    padding: 10px;
   }
   .parent {
     display: flex;
@@ -120,7 +130,7 @@
     transition: diplay 0.1s;
   }
   .header-content .content h2 {
-    font-size: 65;
+    font-size: 65px;
   }
   .header-content .content {
     position: relative;
