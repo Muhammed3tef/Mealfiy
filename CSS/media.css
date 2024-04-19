@@ -1,3 +1,54 @@
+@media(min-width:500px){
+  .header-content .content h2{
+    font-size: 35px;
+    text-align: center;
+  }
+  .header-content .content p{
+    text-align: center;
+  }
+  .header-content .content .buttom{
+    position: relative;
+    left: 10%;
+    width: 70%;
+  }
+  .header-content .content a#butt{
+    padding: 10px;
+  }
+  .header-content .content a#aunch{
+    margin-left: 5px;
+  }
+  .container2 h2{
+    margin-bottom: 10px;
+  }
+  .walter-white{
+    width: 70%;
+    margin-top: 20px;
+    margin: auto;
+  }
+  .sarah-jhonson{
+    width: 70%;
+    margin-top: 20px;
+    margin: 10% auto;
+
+  }
+  .william-anderson{
+    width: 70%;
+    margin-top: 20px;
+    margin: 10% auto;
+  }
+  .gallery-section{
+    display: flex;
+    flex-direction: column;
+    columns: 1;
+  }
+  .footer .parent2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  
+  }
+}
+
 @media (min-width: 600px) {
   .nav-bar {
     display: flex;
@@ -12,22 +63,33 @@
     left: 200px;
     font-size: 26px;
   }
-  .nav-item li#icon-item2{
+  .nav-item li#icon-item2 {
     visibility: hidden;
   }
   .nav-bar .logo a {
     position: relative;
     left: 80px;
   }
-  .nav-bar .nav-item a#hov-item{
+  .nav-bar .nav-item a#hov-item {
     visibility: visible;
   }
-  .nav-item a#home{
+  .nav-item a#home {
     visibility: visible;
   }
+  .header-content .content .buttom{
+    position: relative;
+    top:-30;
+    font-size: 1%;
 
-
-  .header-content .photo img{
+  }
+  .header-content .content a#aunch{
+    margin-left: 0px;
+  }
+  .header-content .content p{
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .header-content .photo img {
     width: 83%;
     margin-left: 3rem;
     padding: 10px;
@@ -36,6 +98,7 @@
   .nav-item li {
     padding: 8px;
   }
+
   .buttom #butt {
     border-top-left-radius: 0;
     font-size: 17px;
@@ -55,26 +118,36 @@
     gap: 5px;
     flex-wrap: wrap;
   }
-.walter-white {
-    width: 5%;
-  }
-  .sarah-jhonson {
-    width: 45%;
+  .walter-white {
+    width: 40%;
+  } 
+   .sarah-jhonson {
+    width: 40%;
     margin-bottom: 49px;
+  } */
+   .gallery-section{
+    display: flex;
+    flex-direction: column;
+    columns: 1;
   }
-
+  .footer .parent2{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  
+  }
 }
-@media (min-width: 677px) {
-  .nav-bar .nav-item a#hov-item{
+@media (min-width: 900px) {
+  .nav-bar .nav-item a#hov-item {
     visibility: visible;
   }
-  .nav-item a#home{
+  .nav-item a#home {
     visibility: visible;
   }
-  .nav-item li#icon-item2{
+  .nav-item li#icon-item2 {
     visibility: hidden;
   }
-  .header-content .photo img{
+  .header-content .photo img {
     width: 100%;
     margin-left: 3rem;
     padding: 10px;
@@ -110,16 +183,28 @@
     width: 95%;
     /* margin: 0 25px; */
   }
+  .gallery-section{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr); 
+ grid-gap: 20px;
+  }
+  .footer .parent2{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  
+  }
+
 }
 
-@media (min-width: 900px) {
-  .nav-bar .nav-item a#hov-item{
+@media (min-width: 1200px) {
+  .nav-bar .nav-item a#hov-item {
     visibility: visible;
   }
-  .nav-item a#home{
+  .nav-item a#home {
     visibility: visible;
   }
-  .nav-item li#icon-item2{
+  .nav-item li#icon-item2 {
     visibility: hidden;
   }
   .header-content {
@@ -131,6 +216,7 @@
   }
   .header-content .content h2 {
     font-size: 65px;
+    text-align: left;
   }
   .header-content .content {
     position: relative;
@@ -140,22 +226,37 @@
   .header-content .content p {
     font-size: 19px;
     padding-top: 19px;
+    text-align: left;
+
+  }
+  .header-content .content .buttom{
+    position: relative;
+    left: -94;
+    padding-top: 25px;
+
+
   }
   .header-content .photo {
     width: 40%;
     margin-top: 25px;
   }
-  .container2{
+  .container2 {
     /* font-size: 40px; */
     position: relative;
     top: 50px;
   }
-  .container2 h2{
+  .container2 h2 {
     font-size: 40px;
+    position: relative;
+    top: 100px;
   }
-  .walter-white {
+  .container2 p{
+    position: relative;
+    top: 95px;
+  }
+   .walter-white {
     width: 50%;
-  }
+  } 
   .parent {
     display: flex;
     justify-content: space-evenly;
@@ -170,8 +271,8 @@
     width: 30%;
     padding-bottom: 20px;
     margin-bottom: 10px;
-  }
-  .sarah-jhonson {
+  } 
+   .sarah-jhonson {
     width: 30%;
     padding-bottom: 20px;
     margin-top: 45px;
@@ -179,11 +280,23 @@
   .william-anderson {
     width: 33.3333%;
     padding-bottom: 3px;
-    margin-bottom: 49px;
-  }
-  .william-anderson img {
+  } 
+   .william-anderson img {
     object-fit: cover;
     width: 95%;
     margin: 0 20px;
   }
+  .gallery-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px;
+     }
+     .footer .parent2{
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+    
+    }
 }
+
+

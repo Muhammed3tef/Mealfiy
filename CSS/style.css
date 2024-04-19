@@ -388,10 +388,10 @@ html{
   margin: auto;
 }
 .gallery-section {
-  display: flex;
-  /* grid-template-columns: repeat(3, 1fr);  */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
   grid-gap: 20px;
-  columns: 3;
+  /* columns: 3; */
 }
 
 .div-left,
@@ -665,9 +665,9 @@ form {
 
 }
 .social-media1 {
-  padding: 10px;
+  padding: 15px;
   font-family: "Assistant", sans-serif;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 .soical{
   margin-top: 10px;
@@ -705,8 +705,10 @@ form {
   color: #fff;
 }
 .subscribe{
-  padding: 10px;
+  padding: 20px;
   margin-right: 10px;
+  width: 70%;
+
 }
 .subscribe .sub-content{
   font-family: "Assistant", sans-serif;
@@ -758,6 +760,7 @@ form {
 }
 .get-in-touch{
   line-height: 2;
+  margin-right: 15px;
 }
 .get-in-touch h2{
   font-family: "Assistant", sans-serif;
