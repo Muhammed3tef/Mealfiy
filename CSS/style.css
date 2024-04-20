@@ -77,7 +77,7 @@ html{
 .nav-item li#icon-item2 {
   position: relative;
   top: 4px;
-  left: 5px;
+  left: 0;
 }
 .container {
   height: 100vh;
@@ -676,12 +676,12 @@ form {
   margin-left: 15px;
   font-size: 20px;
   border-bottom: 2px solid rgb(223, 219, 219);
-  width: 50%;
+  width: 62%;
   text-align: center;
 }
 .parent2 .virt {
   vertical-align: super;
-  font-size: 25px;
+  font-size: 34px;
   margin-left: 3px;
   font-weight: 800;
 }
@@ -706,8 +706,9 @@ form {
 }
 .subscribe{
   padding: 20px;
-  margin-right: 10px;
-  width: 70%;
+  /* margin-right: -20px; */
+  width: 72%;
+  margin-left: -22px;
 
 }
 .subscribe .sub-content{
@@ -719,7 +720,7 @@ form {
   margin-bottom: 10px;
 }
 .subscribe .entery-data .inp5{
-  width: 30%;
+  width: 70%;
   padding: 12px;
   outline: transparent;
 }
